@@ -32,10 +32,12 @@
         <ul>
             @foreach($shop_links as $item)
             <li>
-                <img :src="{{ Vite::asset($item['img']) }}" alt="">
+                <img src="{{ Vite::asset($item['img']) }}" alt="">
                 <a href="#">{{ $item['text'] }}</a>
             </li>
             @endforeach
+
+            
 
         </ul>
     </div>
