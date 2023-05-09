@@ -7,6 +7,8 @@
 
 @endsection
 
+
+
 {{-- collegamento js --}}
 {{-- @section('script')
     <script src="{{ Vite::asset('resources/js/script.js') }}"></script>

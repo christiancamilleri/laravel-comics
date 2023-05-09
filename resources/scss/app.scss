@@ -58,3 +58,25 @@ header {
 
     }
 }
+
+#jumbo {
+    background-image: url("../images/jumbotron.jpg");
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    position: relative;
+
+    .container {
+        .current-series {
+            background-color: #1282f9;
+            color: white;
+            padding: 10px 20px;
+            width: 200px;
+
+            position: absolute;
+            bottom: -20px;
+            left: 20%;
+        }
+    }
+}
