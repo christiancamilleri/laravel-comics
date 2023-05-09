@@ -80,3 +80,39 @@ header {
         }
     }
 }
+
+main {
+    background-color: black;
+
+    .container {
+
+        .card-container {
+
+            margin-top: 2em;
+
+            .comic-cover {
+                width: 100%;
+
+                aspect-ratio: 1 / 1;
+            }
+
+            span {
+                color: white;
+            }
+        }
+
+        .btn {
+            display: flex;
+            justify-content: center;
+
+            button {
+                background-color: #1282f9;
+                color: white;
+
+                border: none;
+
+                padding: 10px 40px;
+            }
+        }
+    }
+}
