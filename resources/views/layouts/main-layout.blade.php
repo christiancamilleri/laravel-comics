@@ -10,6 +10,9 @@
     <!-- Fonts -->
     <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
+    {{-- font-awesome --}}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
     <!-- Styles -->
     @vite('resources/js/app.js')
 
@@ -20,11 +23,12 @@
    @include('partials/header')
 
    @yield('content')
+   
 
    @include('partials/footer')
 
    
 
 </body>
-
+@yield('script')
 </html>

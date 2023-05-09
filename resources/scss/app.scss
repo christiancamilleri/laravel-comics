@@ -1,1 +1,60 @@
 @import '~bootstrap/scss/bootstrap';
+
+header {
+    background-color: white;
+    color: black;
+
+    .container {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+
+        height: 100px;
+    }
+
+
+    .nav-left {
+        #logo {
+            height: 80px;
+        }
+    }
+
+    .nav-center {
+        ul {
+            display: flex;
+            gap: 1em;
+            height: 100%;
+
+            li {
+                text-transform: uppercase;
+                font-weight: 500;
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+            }
+
+            li.active {
+                color: #1282f9;
+                border-bottom: 5px solid #1282f9;
+                border-top: 5px solid white;
+            }
+        }
+    }
+
+    .nav-right {
+        input {
+            border: none;
+
+            border-bottom: 2px solid #1282f9;
+        }
+
+        input::placeholder {
+            color: black;
+            opacity: 1;
+            text-align: end;
+        }
+
+
+    }
+}
