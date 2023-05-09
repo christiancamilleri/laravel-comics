@@ -24,6 +24,7 @@
    @include('partials/jumbo')
 
    @yield('content')
+   @yield('shop-section')
    
 
    @include('partials/footer')

@@ -116,3 +116,33 @@ main {
         }
     }
 }
+
+.shop-section {
+    background-color: #1282f9;
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 1em;
+
+        height: 100%;
+
+
+        li {
+
+            display: flex;
+            align-items: center;
+            gap: 1em;
+            text-transform: uppercase;
+
+            img {
+                height: 60px;
+            }
+
+            a {
+                color: white;
+            }
+        }
+    }
+}
