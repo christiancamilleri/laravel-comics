@@ -30,11 +30,12 @@
 <div class="shop-section">
     <div class="container">
         <ul>
-            @foreach($footer_links as $item)
+            @foreach($shop_links as $item)
             <li>
-                <img :src="{{$item['img']}}" alt="">
+                <img :src="{{ Vite::asset($item['img']) }}" alt="">
                 <a href="#">{{ $item['text'] }}</a>
             </li>
+            @endforeach
 
         </ul>
     </div>

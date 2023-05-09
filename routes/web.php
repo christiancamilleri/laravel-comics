@@ -32,23 +32,23 @@ Route::get('/', function () {
     $shop_links = [
         [
             "text" => "digital comics",
-            "img" => "/img/buy-comics-digital-comics.png"
+            "img" => "resources/images/buy-comics-digital-comics.png"
         ],
         [
             "text" => "dc merchandise",
-            "img" => "/img/buy-comics-merchandise.png"
+            "img" => "resources/images/buy-comics-merchandise.png"
         ],
         [
             "text" => "subscription",
-            "img" => "/img/buy-comics-shop-locator.png"
+            "img" => "resources/images/buy-comics-shop-locator.png"
         ],
         [
             "text" => "comic shop locator",
-            "img" => "/img/buy-comics-subscriptions.png"
+            "img" => "resources/images/buy-comics-subscriptions.png"
         ],
         [
             "text" => "dc power visa",
-            "img" => "/img/buy-dc-power-visa.svg"
+            "img" => "resources/images/buy-dc-power-visa.svg"
         ]
     ];
 
